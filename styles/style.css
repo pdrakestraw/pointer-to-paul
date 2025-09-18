@@ -59,3 +59,31 @@ body {
     0%, 50%, 100% { opacity: 1; }
     25%, 75% { opacity: 0; }
 }
+
+#project-bar {
+    display: flex;
+}
+
+.project-card {
+    display: block;
+    margin: 50px;
+    width: 300px;
+    height: 350px;
+    border: 4px solid black;
+    text-decoration: none;
+}
+
+.project-card-img {
+    width: 100%;
+    height: 175px;
+}
+
+.project-card-header {
+    margin-left: 10px;
+    color: black
+}
+
+.project-card-description {
+    margin-left: 10px;
+    color: black
+}
